@@ -25,7 +25,7 @@ public class ModuleManagerImplTest extends TestCase {
 	private static final int BUFSIZE = 8192;
 	
 	protected static File getTestDir() {
-		final File modDir = new File("test/WEB-INF/modules/");
+		final File modDir = new File("target/test/WEB-INF/modules/");
 		modDir.mkdirs();
 		return modDir;
 	}
